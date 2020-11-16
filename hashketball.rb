@@ -226,6 +226,7 @@ def shoe_size (players_name)
           #binding.pry
           return value[:players][:points]
         end 
+       end 
       end 
     end 
   end 
