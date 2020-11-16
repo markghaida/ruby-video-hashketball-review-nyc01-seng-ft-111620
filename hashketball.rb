@@ -219,9 +219,9 @@ end
 def shoe_size (players_name)
   game_hash.each do |key, value|
     value.each do |k, v|
-      value[:players].each do |stat_key, stat_value|
+      value[:players].each do |player|
         binding.pry
-        if players_name == value[:players][:player_name]
+        if players_name == player[:player_name]
           #binding.pry
           return value[:players][:points]
         end 
